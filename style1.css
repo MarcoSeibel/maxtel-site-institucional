@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+    background-color: #111;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cabecalho p {
+    color: #ccc;
+    font-size: 16px;
+}
+
+/* CONTEÚDO */
+
+.conteudo {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.mensagens {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.mensagens h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* TABELA */
+
+.tabela-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead {
+    background-color: #111;
+    color: white;
+}
+
+th,
+td {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-size: 15px;
+}
+
+td {
+    font-size: 14px;
+    color: #444;
+}
+
+/* EFEITO NAS LINHAS */
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* RODAPÉ */
+
+.rodape {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    background-color: #111;
+    color: #aaa;
+}
