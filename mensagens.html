@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Mensagens recebidas pela Maxtel."
+    >
+
+    <title>Mensagens | Maxtel</title>
+
+    <link rel="stylesheet" href="mensagens.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="cabecalho-conteudo">
+
+            <div>
+
+                <p class="subtitulo">
+                    MAXTEL
+                </p>
+
+                <h1>
+                    Mensagens recebidas
+                </h1>
+
+                <p>
+                    Visualize as mensagens enviadas
+                    através do formulário de contato.
+                </p>
+
+            </div>
+
+            <a
+                href="index.html#contato"
+                class="botao-voltar"
+            >
+                ← Voltar para o site
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main class="conteudo">
+
+        <section class="mensagens">
+
+            <div class="mensagens-topo">
+
+                <div>
+
+                    <h2>
+                        Caixa de entrada
+                    </h2>
+
+                    <p id="contadorMensagens">
+                        0 mensagens
+                    </p>
+
+                </div>
+
+                <button
+                    id="limparMensagens"
+                    class="botao-limpar"
+                    type="button"
+                >
+                    Limpar mensagens
+                </button>
+
+            </div>
+
+
+            <div class="filtro">
+
+                <label for="buscarMensagem">
+                    Buscar mensagem
+                </label>
+
+                <input
+                    type="search"
+                    id="buscarMensagem"
+                    placeholder="Nome, e-mail ou mensagem..."
+                >
+
+            </div>
+
+
+            <div
+                id="listaMensagens"
+                class="lista-mensagens"
+                aria-live="polite"
+            >
+
+            </div>
+
+        </section>
+        <div class="mensagens-topo">
+
+    <div>
+
+        <h2>
+            Caixa de entrada
+        </h2>
+
+        <p id="contadorMensagens">
+            0 mensagens
+        </p>
+
+    </div>
+
+
+    <div class="acoes-admin">
+
+        <button
+            id="limparMensagens"
+            class="botao-limpar"
+            type="button"
+        >
+            Limpar mensagens
+        </button>
+
+        <button
+            id="sairAdmin"
+            class="botao-sair"
+            type="button"
+        >
+            Sair
+        </button>
+
+    </div>
+
+</div>
+
+    </main>
+
+
+    <footer class="rodape">
+
+        <p>
+            © 2026 - Maxtel
+        </p>
+
+    </footer>
+
+
+    <script src="script-mensagens.js"></script>
+    
+
+</body>
+
+</html>

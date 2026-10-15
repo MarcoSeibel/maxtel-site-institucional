@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Área administrativa da Maxtel."
+    >
+
+    <title>Área Administrativa | Maxtel</title>
+
+    <link
+        rel="stylesheet"
+        href="style-admin.css"
+    >
+
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <section class="login-card">
+
+            <p class="logo-admin">
+                MAXTEL
+            </p>
+
+            <h1>
+                Área administrativa
+            </h1>
+
+            <p class="descricao">
+                Acesso restrito ao administrador do sistema.
+            </p>
+
+
+            <form id="formLogin">
+
+                <div class="campo">
+
+                    <label for="usuario">
+                        Usuário
+                    </label>
+
+                    <input
+                        type="text"
+                        id="usuario"
+                        placeholder="Digite seu usuário"
+                        autocomplete="username"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="campo">
+
+                    <label for="senha">
+                        Senha
+                    </label>
+
+                    <input
+                        type="password"
+                        id="senha"
+                        placeholder="Digite sua senha"
+                        autocomplete="current-password"
+                        required
+                    >
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="botao-login"
+                >
+                    Entrar
+                </button>
+
+
+                <p
+                    id="mensagemLogin"
+                    class="mensagem-login"
+                    aria-live="polite"
+                ></p>
+
+            </form>
+
+
+            <a
+                href="index.html"
+                class="voltar-site"
+            >
+                ← Voltar para o site
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <script src="script-admin.js"></script>
+
+</body>
+
+</html>

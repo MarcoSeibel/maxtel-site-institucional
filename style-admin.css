@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    font-family: Arial, sans-serif;
+
+    color: white;
+
+    background:
+        radial-gradient(
+            circle at 50% 20%,
+            rgba(109, 40, 217, 0.30),
+            transparent 35%
+        ),
+        #080511;
+}
+
+
+.login-container {
+    width: 100%;
+
+    max-width: 450px;
+}
+
+
+.login-card {
+    padding: 40px;
+
+    background-color: #100a1d;
+
+    border: 1px solid #3b176b;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 0 40px rgba(168, 85, 247, 0.12);
+}
+
+
+.logo-admin {
+    color: #A855F7;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 15px;
+}
+
+
+.login-card h1 {
+    font-size: 30px;
+
+    margin-bottom: 10px;
+}
+
+
+.descricao {
+    color: #806b99;
+
+    line-height: 1.6;
+
+    margin-bottom: 30px;
+}
+
+
+.campo {
+    margin-bottom: 20px;
+}
+
+
+.campo label {
+    display: block;
+
+    color: #D8B4FE;
+
+    font-size: 14px;
+
+    margin-bottom: 8px;
+}
+
+
+.campo input {
+    width: 100%;
+
+    padding: 14px;
+
+    color: white;
+
+    background-color: #1E1433;
+
+    border: 1px solid #3b176b;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+
+
+.campo input:focus {
+    border-color: #A855F7;
+
+    box-shadow:
+        0 0 12px rgba(168, 85, 247, 0.20);
+}
+
+
+.botao-login {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: #6D28D9;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.botao-login:hover {
+    background-color: #7C3AED;
+
+    transform: translateY(-2px);
+}
+
+
+.mensagem-login {
+    min-height: 20px;
+
+    margin-top: 15px;
+
+    text-align: center;
+
+    font-size: 14px;
+}
+
+
+.mensagem-login.erro {
+    color: #fca5a5;
+}
+
+
+.voltar-site {
+    display: block;
+
+    margin-top: 25px;
+
+    color: #A855F7;
+
+    text-align: center;
+
+    text-decoration: none;
+}
+
+
+.voltar-site:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 500px) {
+
+    .login-card {
+        padding: 30px 22px;
+    }
+
+    .login-card h1 {
+        font-size: 25px;
+    }
+
+}
